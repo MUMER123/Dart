@@ -1,0 +1,64 @@
+WHAT IS DART?
+
+it is an open source language developed by google and it is a C style language. 
+
+SYNTAX OF DART 
+
+
+void main(){
+	print('Hello');
+} 
+
+COMMENTS IN DART
+
+//single line comments 
+
+/* multi line comments */
+
+DOCUMENTATION
+
+///This is a documentation. What the code does...
+
+VARIABLES IN DART
+
+void main(){
+
+	int a = 10;    //integer type 
+	double b = 2.5; //decimal type 
+	String c = "Hello"; //String type
+	bool d = true;   //Boolean type
+	List l = [1,3,"umer",0.009];   //list datatype,same as array, not same datatype of elements is necessary 
+	Map m = {'name':'Umer','city':'Lahore'};  //Key value pair
+	var m = "Ali is a good boy";   // dynamic datatype, Automatically selects the datatype of variable 
+	
+}
+
+PRINTING EACH DATATYPE IN DART 
+
+void main(){
+
+	int a;
+	print(a);
+	
+	double d;
+	print(d);
+	
+	String s;
+	print(s);
+	
+	bool b;
+	print(b);
+	
+	List a = [1,2,"ali"];
+	print(a);
+	print(a[2]);
+	
+	Map m = {'name':'Umer','City':'Lahore'};
+	print(m);
+	print(m['name']);
+	
+	var v = 10;
+	print(v);
+	
+}
+
