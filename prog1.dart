@@ -28,4 +28,8 @@ void main() {
   print(v);
   print(v2);
   print(v3);
+
+  ///Boolean variable
+  bool b = true;
+  print(b);
 }
