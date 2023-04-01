@@ -4,6 +4,10 @@ void main() {
  double sum=0;
  int count = 0;
  double marks = input();
+ if(marks<0){
+  print('No student with negative marks');
+  return;
+ }
  sum = sum + marks;
  count++;
  while (marks > 0) {
@@ -16,4 +20,11 @@ void main() {
  }
  double avg = sum / count;
  print('The average marks of students are: $avg');
+}
+
+
+double input(){
+  stdout.write('Enter marks of the students(only positive values accepted): ');
+  double? x = double.parse(stdin.readLineSync()!);
+  return x;
 }
