@@ -1,6 +1,6 @@
 import 'dart:io';
 void main() {
- print("\t\t\t***FACTORIAL CALCULATOR***");
+ print("\t\t\t***PRIME CHECKER***");
 
  stdout.write('Enter a number: ');
  int? num = int.parse(stdin.readLineSync()!);
