@@ -1,0 +1,13 @@
+//import 'package:dart_programs/dart_programs.dart' as dart_programs;
+import 'dart:io';
+  void main(){
+    //int arr[3] = {1,2,3};
+    List<int> arr = [];
+    stdout.write('How many numbers you want to enter in a list: ');
+    int? a = int.parse(stdin.readLineSync()!);
+    for(int i = 0;i<a;i++){
+      arr.add(int.parse(stdin.readLineSync()!));
+    }
+    print('The values in the list are: ');
+    arr.forEach((element) => print(element));
+  }
